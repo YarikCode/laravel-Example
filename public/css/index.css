@@ -8,6 +8,11 @@
     src: url("../fonts/Inter-Light.ttf");
 }
 
+@font-face {
+    font-family: Russo-One;
+    src: url("../fonts/RussoOne-Regular.ttf");
+}
+
 *{
     margin: 0;
     padding: 0;
@@ -60,4 +65,48 @@
 
 .text{
     font-family: Inter-Light; 
+}
+
+.header{ 
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 50px 15px 50px;
+    margin-bottom: 20px;
+}
+
+.header_logo{
+    display: flex;
+}
+
+.logo{
+    font-family: Russo-One;
+    font-family: Inter-Bold;
+    font-size: 20px;
+    color: rgb(15, 110, 181);
+}
+
+.city{
+    font-family: Inter-Light;
+    font-size: 20px;
+    text-decoration: none;
+    color: rgb(15, 110, 181);
+    margin-left: 10px;
+}
+
+.header_button{
+    padding: 7px 12px 7px 12px;
+    background-color: rgb(228, 236, 253);
+    border-radius: 4px;
+    color: rgb(15, 110, 181);
+    font-family: Inter-Light;
+    border: none;
+    transition: background-color 0.3s;
+    font-size: 16px;
+    margin-left: 5px;
+}
+
+.header_button:hover{
+    background-color: rgb(198, 214, 249);
 }
